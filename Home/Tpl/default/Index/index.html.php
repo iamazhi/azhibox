@@ -65,7 +65,7 @@ $(function(){
       <ul>
         <foreach name="rambles" item="ramble">
         <li>
-          <div class="title"><i class="icon-lemon"></i> <a href='/index.php/Ramble/read/{$ramble.id}' target="_blank">{$ramble.title}</a></div>
+          <h4 class="title"><i class="icon-lemon"></i> <a href='/index.php/Ramble/read/{$ramble.id}' target="_blank">{$ramble.title}</a></h4>
           <div class='content'>{$ramble.digest}</div>
           <div class='mix text-right'>
             <span class='mix'>
@@ -95,8 +95,4 @@ $(function(){
   </div>
 </div>
 </div>
-<div id="bambooForest"></div>
-<style>
-#bambooForest {width:100%; background:url("/Public/theme/default/images/bamboo-forest.png") repeat-x; height:250px;}
-</style>
 <include file="Public:footer" />

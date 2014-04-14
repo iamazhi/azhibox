@@ -21,7 +21,6 @@ padding: 15px;
       <div class="content">
         {$ramble.content}
       </div>
-{$ramble.tag}
      </div>
     <div class="col-sm-2"></div>
 </div>

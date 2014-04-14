@@ -15,9 +15,9 @@
         <li> <a href="/index.php/Azhi" target="_blank">关于我</a> </li>
       </ul>
       <ul class="nav navbar-nav  navbar-right">
-        <li><a href="../getting-started">收藏</a></li>
-        <li><a href="../css">漫谈</a></li>
-        <li><a href="../components">轻语</a></li>
+<!--        <li><a href="../getting-started">收藏</a></li> -->
+        <li><a href="/index.php/Ramble">漫谈</a></li>
+        <li><a href="/index.php/whisper">轻语</a></li>
  <!--       <li><a href="../components">电台</a></li>
         <li><a href="../javascript">陈潇百世</a></li>
         -->

@@ -46,3 +46,5 @@
 .w-700px {width:700px}
 .w-800px {width:800px}
 .w-1000px {width:1000px}
+
+a:hover {text-decoration: none;}

@@ -8,7 +8,7 @@ class RambleModel extends Model
         foreach($data as $item)
         {
             $rambles[$item["id"]] = $item;
-            $rambles[$item["id"]]["digest"] = $this->html_substr($item["content"], 250) . "……";
+            $rambles[$item["id"]]["digest"] = $this->html_substr($item["content"], 250);
         }
         return $rambles;
     }
