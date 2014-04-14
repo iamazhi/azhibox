@@ -1,0 +1,278 @@
+[ 2014-04-08T20:16:48+08:00 ] 127.0.0.1 /admin.php/Ramble/edit/7
+NOTIC: 建议使用I方法替代_param
+
+[ 2014-04-08T20:37:44+08:00 ] 127.0.0.1 /admin.php/Whisper/delete/
+ERR: 非法操作:delete
+
+[ 2014-04-08T20:40:04+08:00 ] 127.0.0.1 /admin.php/Whisper/delete/
+NOTIC: 建议使用I方法替代_param
+
+[ 2014-04-08T20:40:08+08:00 ] 127.0.0.1 /admin.php/Whisper/delete/
+NOTIC: 建议使用I方法替代_param
+
+[ 2014-04-08T20:40:25+08:00 ] 127.0.0.1 /admin.php/Whisper/delete/
+NOTIC: 建议使用I方法替代_param
+
+[ 2014-04-08T20:40:28+08:00 ] 127.0.0.1 /admin.php/Whisper/delete/
+NOTIC: 建议使用I方法替代_param
+
+[ 2014-04-08T20:41:00+08:00 ] 127.0.0.1 /admin.php/Whisper/delete/9
+NOTIC: 建议使用I方法替代_param
+
+[ 2014-04-08T21:57:34+08:00 ] 127.0.0.1 /admin.php/Whisper/delete/11
+NOTIC: 建议使用I方法替代_param
+
+[ 2014-04-08T22:00:42+08:00 ] 127.0.0.1 /admin.php/Whisper/create/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:create
+
+[ 2014-04-08T22:00:53+08:00 ] 127.0.0.1 /admin.php/Whisper/create/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:create
+
+[ 2014-04-08T22:00:58+08:00 ] 127.0.0.1 /admin.php/Whisper/create/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015624s ]
+ERR: 非法操作:create
+
+[ 2014-04-08T22:01:08+08:00 ] 127.0.0.1 /admin.php/Whisper/create/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:create
+
+[ 2014-04-08T22:01:20+08:00 ] 127.0.0.1 /admin.php/Whisper/create/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:create
+
+[ 2014-04-08T22:01:44+08:00 ] 127.0.0.1 /admin.php/Whisper/browse
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of WhisperModel::create() should be compatible with Model::create($data = '', $type = '') D:\xampp\app\web\Admin\Lib\Model\WhisperModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.015624s ]
+SQL: INSERT INTO `ab_whisper` (`content`,`author`,`createTime`) VALUES ('亲，今天有什么想说的吗？','阿智','2014-04-08 22:01:44') [ RunTime:0.000000s ]
+
+[ 2014-04-08T22:01:44+08:00 ] 127.0.0.1 /admin.php/Whisper/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015624s ]
+
+[ 2014-04-08T22:01:44+08:00 ] 127.0.0.1 /admin.php/Whisper/browse.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ab_whisper` ORDER BY id desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title D:\xampp\app\web\Admin\Runtime\Cache\bc47b0500e292520b0b3cf12c6ddbef5.php 第 4 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-08T22:02:36+08:00 ] 127.0.0.1 /admin.php/Whisper/browse
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of WhisperModel::create() should be compatible with Model::create($data = '', $type = '') D:\xampp\app\web\Admin\Lib\Model\WhisperModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.015624s ]
+SQL: INSERT INTO `ab_whisper` (`content`,`author`,`createTime`) VALUES ('亲，今天有什么想说的吗？我不想说，我很亲切。','阿智','2014-04-08 22:02:36') [ RunTime:0.000000s ]
+
+[ 2014-04-08T22:02:36+08:00 ] 127.0.0.1 /admin.php/Whisper/index.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-08T22:02:37+08:00 ] 127.0.0.1 /admin.php/Whisper/browse.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `ab_whisper` ORDER BY id desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title D:\xampp\app\web\Admin\Runtime\Cache\bc47b0500e292520b0b3cf12c6ddbef5.php 第 4 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046872s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-08T22:09:10+08:00 ] 127.0.0.1 /admin.php/Whisper/create
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015624s ]
+NOTIC: [2048] Declaration of WhisperModel::create() should be compatible with Model::create($data = '', $type = '') D:\xampp\app\web\Admin\Lib\Model\WhisperModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.031248s ]
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.015624s ]
+SQL: INSERT INTO `ab_whisper` (`content`,`author`,`createTime`) VALUES ('亲，今天有什么想说的吗？我不想说，我很亲','阿智','2014-04-08 22:09:10') [ RunTime:0.000000s ]
+
+[ 2014-04-08T22:09:11+08:00 ] 127.0.0.1 /admin.php/Whisper/browse.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `ab_whisper` ORDER BY id desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title D:\xampp\app\web\Admin\Runtime\Cache\bc47b0500e292520b0b3cf12c6ddbef5.php 第 4 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031248s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015624s ]
+
+[ 2014-04-08T22:09:23+08:00 ] 127.0.0.1 /admin.php/Whisper/create
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of WhisperModel::create() should be compatible with Model::create($data = '', $type = '') D:\xampp\app\web\Admin\Lib\Model\WhisperModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.015624s ]
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.000000s ]
+SQL: INSERT INTO `ab_whisper` (`content`,`author`,`createTime`) VALUES ('亲，今天有什么想说的吗？我不想说，我很亲dddd','阿智','2014-04-08 22:09:23') [ RunTime:0.015624s ]
+
+[ 2014-04-08T22:09:23+08:00 ] 127.0.0.1 /admin.php/Whisper/browse.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ab_whisper` ORDER BY id desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title D:\xampp\app\web\Admin\Runtime\Cache\bc47b0500e292520b0b3cf12c6ddbef5.php 第 4 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078120s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015624s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-08T22:09:30+08:00 ] 127.0.0.1 /admin.php/Whisper/delete/14
+NOTIC: 建议使用I方法替代_param
+
+[ 2014-04-08T22:12:11+08:00 ] 127.0.0.1 /admin.php/Whisper/create/16
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015624s ]
+NOTIC: [2048] Declaration of WhisperModel::create() should be compatible with Model::create($data = '', $type = '') D:\xampp\app\web\Admin\Lib\Model\WhisperModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.031248s ]
+SQL: UPDATE `ab_whisper` SET `content`='亲，今天有什么想说的吗？我不想说，我很亲dddd5' WHERE ( `id` = 16 ) [ RunTime:0.015624s ]
+
+[ 2014-04-08T22:12:11+08:00 ] 127.0.0.1 /admin.php/Whisper/browse.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.031248s ]
+SQL: SELECT * FROM `ab_whisper` ORDER BY id desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title D:\xampp\app\web\Admin\Runtime\Cache\bc47b0500e292520b0b3cf12c6ddbef5.php 第 4 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015624s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-08T22:12:35+08:00 ] 127.0.0.1 /admin.php/Whisper/create/8
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of WhisperModel::create() should be compatible with Model::create($data = '', $type = '') D:\xampp\app\web\Admin\Lib\Model\WhisperModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.015624s ]
+SQL: UPDATE `ab_whisper` SET `content`='a787878' WHERE ( `id` = 8 ) [ RunTime:0.000000s ]
+
+[ 2014-04-08T22:12:35+08:00 ] 127.0.0.1 /admin.php/Whisper/browse.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `ab_whisper` ORDER BY id desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title D:\xampp\app\web\Admin\Runtime\Cache\bc47b0500e292520b0b3cf12c6ddbef5.php 第 4 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031248s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-04-08T22:13:02+08:00 ] 127.0.0.1 /admin.php/Whisper/create/8
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of WhisperModel::create() should be compatible with Model::create($data = '', $type = '') D:\xampp\app\web\Admin\Lib\Model\WhisperModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.015624s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.000000s ]
+SQL: UPDATE `ab_whisper` SET `content`='asdf&nbsp;' WHERE ( `id` = 8 ) [ RunTime:0.062496s ]
+
+[ 2014-04-08T22:13:02+08:00 ] 127.0.0.1 /admin.php/Whisper/browse.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ab_whisper` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `ab_whisper` ORDER BY id desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title D:\xampp\app\web\Admin\Runtime\Cache\bc47b0500e292520b0b3cf12c6ddbef5.php 第 4 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015624s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+

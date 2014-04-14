@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>APP_DEBUG: 1
