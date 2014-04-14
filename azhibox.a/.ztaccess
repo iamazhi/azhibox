@@ -1,8 +1,0 @@
-Options +FollowSymLinks +SymLinksIfOwnerMatch
-<IfModule mod_rewrite.c>
-  RewriteEngine on
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^(.*)$ /app/index.php/$1 [L]
-</IfModule>
-
