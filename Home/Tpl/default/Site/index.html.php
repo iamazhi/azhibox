@@ -2,10 +2,10 @@
 <style>
 #siteList {min-height: 260px} 
 
-.site {float:left; margin-right:10px;}
+.site {float:left; margin:10px;}
 .name { color: white; font-size:16px; padding: 5px; background: #679412;  border-bottom: 1px solid #679412}
 .name:hover { color: #eee;}
-.name i { font-size: 12px;}
+.name i { font-size: 10px; color: #ffffaa}
 .desc { font-size: 14px; color: #333; padding:5px 15px 5px 10px; line-height:16px;  border-bottom: 1px solid #679412;}
 </style>
 
