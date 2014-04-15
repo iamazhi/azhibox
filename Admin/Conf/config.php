@@ -1,4 +1,4 @@
 <?php
-$config = array("APP_DEBUG" => true);
+$config = array();
 return array_merge(include 'Conf/config.php', $config);
 ?>
