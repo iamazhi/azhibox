@@ -16,7 +16,9 @@
       <li><a href='/admin.php/Site'>收藏</a></li>
       <li><a href='/admin.php/Ramble'>漫谈</a></li>
       <li><a href='/admin.php/Whisper'>轻语</a></li>
-      <li><a href='/admin.php'>陈潇百世</a></li>
+      <li><a href='/admin.php/Note'>笔记</a></li>
+      <li><a href='/admin.php'>书籍</a></li>
+      <li><a href='/admin.php/Comment'>留言</a></li>
     </ul>
     <ul class='nav navbar-nav navbar-right'>
       <li class='dropdown'><a href='###' class='dropdown-toggle' data-toggle='dropdown'><i class='icon-globe icon-large'></i> &nbsp;简体<span class='caret'></span></a>

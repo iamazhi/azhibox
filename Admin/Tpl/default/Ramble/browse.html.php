@@ -6,7 +6,7 @@
 <div class="clearfix">
   <div class='panel panel-success'>
     <div class='panel-heading'>
-      <strong><i class="icon-list"></i> 漫谈列表</strong>
+      <strong><i class="icon-list"></i> 漫谈们</strong>
       <div class='panel-actions'><a href='/admin.php/Ramble/create'><i class='icon-plus icon-2x'></i></a> </div>
     </div>
     <table class='table table-hover table-striped tablesorter'>
