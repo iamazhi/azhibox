@@ -8,7 +8,9 @@ $(function(){
 </script>
 <style>
     header.navbar nav ul.nav li {position:relative}
-    header.navbar nav ul.nav li a.active i{position:absolute; left:20px; top:32px;}
+    header.navbar nav ul.nav li a.active i{position:absolute; left:20px; top:32px; color: green}
+    #avatar {position: relative}
+    #avatar img {position: absolute; left:0px; top: 10px;}
 </style>
 
 <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
@@ -24,13 +26,13 @@ $(function(){
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-        <li> <a href="/index.php/Azhi" target="_blank">关于我</a> </li>
+        <li> <a id="avatar" href="/index.php/Azhi" target="_blank"><img src="/Public/theme/default/images/azhi.jpg" width="30" height="30"></a></li>
       </ul>
       <ul class="nav navbar-nav  navbar-right">
-        <li><a id="SiteIndex" href="/index.php/Site" class="active">收藏</a></li> 
         <li><a id="RambleIndex" href="/index.php/Ramble">漫谈</a></li>
-        <li><a id="WhisperIndex" href="/index.php/whisper">轻语</a></li>
-        <li><a id="CommentIndex" href="/index.php/Comment">留言</a></li>
+        <li><a id="WhisperIndex" href="/index.php/Whisper">轻语</a></li>
+        <li><a id="CommentIndex" href="/index.php/Comment">芸芸</a></li>
+        <li><a id="SiteIndex" href="/index.php/Site" class="active">收藏</a></li> 
  <!--       <li><a href="../components">电台</a></li>
         <li><a href="../javascript">陈潇百世</a></li>
         -->
