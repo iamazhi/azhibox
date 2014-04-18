@@ -19,4 +19,4 @@ header.navbar .navbar-nav>.active>a:focus
 #banner .container { position: relative; }
 #banner p { font-weight: 300; line-height: 1.5; }
 
-#bambooLeaf {position:absolute; right:0px; top:50px; z-index:1;}
+#bambooLeaf {position: fixed; right:0px; top:50px; z-index:1;}
