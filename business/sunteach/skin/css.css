@@ -1,4 +1,4 @@
-@charset "gb2312";
+@charset "utf-8";
 /* CSS Document */
 
 @font-face { font-family: fzcuqian; src: url("font/fzcuqian.ttf"); }
@@ -17,12 +17,12 @@ li { list-style:none;}
 /*--------------------------index--------------------------*/
 /* Header */
 #header    { background:url(images/headbg.jpg) repeat-x left top; height:99px; border-bottom: solid 3px #e60000; }
-#headerBox { width:960px; margin:0 auto; }
+#headerBox { width:1100px; margin:0 auto; }
 #logoBox   { float:left; padding-top:30px; }
 #logoName  { font-size: 24px; color: #5c5c5c; letter-spacing: 0.4em}
-#navBox    { float:right; width:785px;}
+#navBox    { float:right; width:785px; position: relative}
 
-#nav {padding-top: 44px; }
+#nav {position: absolute; top: 40px; right: 0px;}
 #nav li { float:left; width:98px; height:40px; line-height:19px; padding-top:8px; text-align:center; font-size:14px; color:#5c5c5c;}
 #nav li a { display:block; color:#5c5c5c; height:40px; line-height:19px; padding-top:8px;}
 #nav li a:hover { background:url(images/navbg.png) no-repeat center top; height:40px; padding-top:8px; color:#FFF;}
@@ -33,41 +33,45 @@ li { list-style:none;}
 
 /* Banner */
 #banner{ width:100%; height: 470px; text-align: center;}
-#banner img {width: 960px; height: 100%;}
+#banner img {width: 1100px; height: 100%;}
 
 /* Slogan */
 #slogan {margin: 30px; text-align: center}
 #slogan p {color: #878787; font-size: 18px;}
 
 /* Ours */
-#ours {width: 960px; height: 210px; margin: 0 auto; background: #fafafa; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5}
-#ours .our {width: 240px; height: 210px; float: left;}
+#ours {width: 1100px; height: 210px; margin: 0 auto; background: #fafafa; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5}
+#ours .our {width: 275px; height: 210px; float: left;}
 #ours .our div {padding: 40px 20px 20px 20px;}
 #ours .our h2 a {font-size: 25px; color: #5c5c5c; border-top: 1px solid #373737; padding-top: 15px; }
 #ours .our h2 a:hover { color: black}
 #ours .our p  {line-height: 150%; letter-spacing: 1px; color: #676767; padding-top: 10px}
 
 /* Services */
-#services {width: 960px; height: 315px; margin: 0 auto; margin-top: 30px; margin-bottom: 30px;}
-#middleBox {padding: 0px 7.5px}
-#services > div {width: 315px; height: 100%; float: left; }
+#services {width: 1100px; height: 360px; margin: 0 auto; margin-top: 30px; margin-bottom: 30px;}
+#middleBox {padding: 0px 10px}
+#services > div {width: 360px; height: 100%; float: left; }
 #services [class^=cellBox] {float:left;}
 #services [class^=cellBox].mouseover {float:left; z-index: 99}
 #services [class^=cellBox].mouseover .cell {position: absolute}
-#services .cellBox11 {width: 105px; height: 105px}
-#services .cellBox21 {width: 210px; height: 105px}
-#services .cellBox22 {width: 210px; height: 210px}
-#services .cellBox32 {width: 315px; height: 210px}
-#services .cell {padding: 3.5px;}
+#services .cellBox11 {width: 120px; height: 120px}
+#services .cellBox21 {width: 240px; height: 120px}
+#services .cellBox22 {width: 240px; height: 240px}
+#services .cellBox32 {width: 360px; height: 240px}
+#services .padding-t {padding-top: 5px;}
+#services .padding-r {padding-right: 5px;}
+#services .padding-b {padding-bottom: 5px;}
+#services .padding-l {padding-left: 5px;}
 
-#customBox1 .cell div {background: #e60000; width: 204px; height: 99px; text-align: center; }
-#customBox1 .cell div a{color: white; font-size: 25px; line-height: 99px;}
+
+#customBox1 .cell div {background: #e60000; text-align: center; }
+#customBox1 .cell div a{color: white; font-size: 25px; line-height: 115px;}
 
 #services {position: relative}
 #customBox2 {position: absolute; bottom: 0px;}
-#customBox2 .cell div {background: #e60000; width: 99px; height: 99px; text-align: center; }
+#customBox2 .cell div {background: #e60000; text-align: center; }
 #customBox2 .cell div:hover {background: #f20000;}
-#customBox2 .cell div a{color: white; font-size: 25px; line-height: 99px;}
+#customBox2 .cell div a{color: white; font-size: 25px; line-height: 115px;}
 
 /* Friends */
 #friends .title, #friends .desc {text-align: center}
@@ -76,7 +80,7 @@ li { list-style:none;}
 #friends .links {text-align: center; padding: 20px;}
 
 /* LiteFooter */
-#liteFooter {width: 960px; height: 80px; margin: 0 auto; background: #fafafa; border-top: 1px solid #e5e5e5;}
+#liteFooter {width: 1100px; height: 80px; margin: 0 auto; background: #fafafa; border-top: 1px solid #e5e5e5;}
 #liteFooter > div {width: 50%; height:100%; float:left;}
 #liteFooter > div > div { padding: 20px}
 #liteFooter .leftBox div { text-align: right; position: relative}
