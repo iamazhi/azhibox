@@ -22,15 +22,7 @@ li { list-style:none;}
 #logoName  { font-size: 24px; color: #5c5c5c; letter-spacing: 0.4em}
 #navBox    { float:right; width:785px;}
 
-#liteNav   { text-align:right; padding-right:25px; color:#6b6b6b; padding-top:15px;}
-#liteNav a { color: #6b6b6b;}
-#liteNav a:hover { color: black;}
-#liteNav .sy { background:url(images/sy.jpg) no-repeat left center; padding-left:15px;}
-#liteNav .lx { background:url(images/lx.jpg) no-repeat left center; padding-left:15px;}
-#liteNav .xz { background:url(images/xz.jpg) no-repeat left center; padding-left:15px;}
-#liteNav .en { background:url(images/en.jpg) no-repeat left center; padding-left:15px;}
-
-#nav {padding-top:4px;}
+#nav {padding-top: 44px; }
 #nav li { float:left; width:98px; height:40px; line-height:19px; padding-top:8px; text-align:center; font-size:14px; color:#5c5c5c;}
 #nav li a { display:block; color:#5c5c5c; height:40px; line-height:19px; padding-top:8px;}
 #nav li a:hover { background:url(images/navbg.png) no-repeat center top; height:40px; padding-top:8px; color:#FFF;}
