@@ -1,0 +1,28 @@
+<?php
+return array (
+  'catid' => '47',
+  'module' => 'phpsin',
+  'modelid' => '0',
+  'type' => '2',
+  'contentid' => '0',
+  'parentid' => '0',
+  'arrparentid' => '0',
+  'child' => '1',
+  'arrchildid' => '47,3,48,49,50,52',
+  'menuid' => '446',
+  'pid' => '22',
+  'modelname' => '外部连接',
+  'style' => '',
+  'name' => '关于我们',
+  'parentdir' => '',
+  'catdir' => '',
+  'url' => 'index.php?file=list&catid=3',
+  'img' => '',
+  'title' => '',
+  'keywords' => '',
+  'description' => '',
+  'ismenu' => '1',
+  'hits' => '0',
+  'listorder' => '0',
+);
+?>

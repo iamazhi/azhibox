@@ -1,0 +1,24 @@
+<?php defined('IN_PHPJSJ') or exit('Access Denied'); ?>  <div class="content" id="top_t" style="margin-top:20px">
+   <div class="bottom">
+       <ul class="btmnav">
+         <li>关于茶园居</li>    
+         <li>合作伙伴</li>    
+         <li>营销中心</li>    
+         <li>服务中心</li>    
+         <li>开放平台</li>    
+         <li>诚征英才</li>    
+         <li>联系我们</li>    
+         <li>网站地图</li>   
+         <li>版权说明</li>
+      </ul>
+         
+         <div class="btmtxt">
+
+         <div class="copyright">
+<font class="f_c">客服热线：020-66650869  传真：020-34365151  Emial:teatai#126.com</font><Br/>
+粤ICP备案09218789号 Copyright@2006-2010All Rights Reserved.<Br/>
+企业增值电信业务经营许可证：09218789</div>
+         
+        </div>
+      </div>
+    </div>

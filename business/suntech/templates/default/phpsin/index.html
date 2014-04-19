@@ -1,0 +1,160 @@
+<!--{template 'phpsin','header'}-->
+<div class="banner">
+       <div class="select"><a href="/" class="cur"></a><a href="/"></a><a href="/"></a><a href="/"></a> </div>
+  <ul>
+    <li style="display:block;">
+      <div class="demo">
+        <ul>
+           {get sql="SELECT * FROM `sin_focus` WHERE passed=1 and typeid=2" rows="4" }
+          {if $r[elite]==1}
+           <li {if $n==1}style="display:block;background:url({$r[thumb]}) ;background-position:top center;width:100%; height:327px;"{/if}><a href="{$r[url]}" target="_blank" ></a></li>
+         {else}
+         <li {if $n==1}style="display:block;background:url({$r[thumb]}) ;background-position:top center;width:100%; height:327px;"{/if}><a href="{$r[url]}" target="_blank"></a></li>
+          {/if}
+          {/get}
+        </ul>
+      </div>
+    <a href="/" target="_blank"></a></li>
+  </ul>
+</div>
+<div class="main">
+  <div class="main-left">
+    <div><span class="more"><a href="index.php?file=list&catid=3">点击更多>></a></span><span class="hh"><a href="index.php?file=list&catid=3">关于我们</a></span><span class="hh1"><a href="index.php?file=list&catid=3">about us</a></span></div>
+    <div class="abo">
+   {get sql="SELECT * FROM `sin_content` WHERE `contentid` = '1'" rows="10" }
+    {str_cut($r[description],200)}
+  {/get}
+  </div>
+    <div class="tupian"><a href="index.php?file=list&catid=6"><img src="skin/images/yingxiao.jpg" width="135" height="80" /></a><a href="index.php?file=list&catid=7"><img src="skin/images/xiazai.jpg" width="135" height="80" class="img" /></a></div>
+    <div class="sousuo">
+      <select name="" class="sel">
+        <option>-友情链接-</option>
+        {get sql="SELECT * FROM `sin_link` WHERE linktype=2 AND passed=1" rows="20" }
+         <option><a href="{$r[url]}" target="_blank">{$r[name]}</a></option>
+         {/get}
+      </select>
+    </div>
+  </div>
+  <div class="main-center">
+    <div class="tab">
+      <ul>
+        <li id="a1" onmouseover="setTab('a',1,4)" class="curr"><a href="index.php?file=list&catid=10">公司新闻</a></li>
+        <li id="a2" onmouseover="setTab('a',2,4)" ><a href="index.php?file=list&catid=11">行业动态</a></li>
+        <li id="a3" onmouseover="setTab('a',3,4)" >媒体报道</li>
+        <li id="a4" onmouseover="setTab('a',4,4)" >焊接知识</li>
+      </ul>
+    </div>
+    <div id="con_a_1" class="cc">
+     {get sql="SELECT * FROM `sin_content` WHERE `catid` = '10'" rows="1" }
+      {if $n ==1}
+      <p class="biaoti"><a href="{$r[url]}">{str_cut($r[title],40)}</a></p>
+      <div class="ccc">
+         <img src="{$r[thumb]}" width="128" height="86" />
+        <p class="miaoshu">{str_cut($r[description],80)}</p>
+        <p class="xiangxi"><a href="{$r[url]}">详细内容>></a></p>
+      </div>
+  {/if}
+  {/get}
+      <ul>
+     {get sql="SELECT * FROM `sin_content` WHERE `catid` = '10'" rows="6" }
+    {if $n !=1}
+        <li><span style="float:right;">[{date("Y-m-d",$r[updatetime])}]</span><a href="{$r[url]}">{str_cut($r[title],40)}</a></li>
+     {/if}
+     {/get}
+      </ul>
+    </div>
+    <div id="con_a_2" class="cc" style="display:none;" >
+     {get sql="SELECT * FROM `sin_content` WHERE `catid` = '11'" rows="1" }
+      {if $n ==1}
+      <p class="biaoti"><a href="{$r[url]}">{str_cut($r[title],40)}</a></p>
+      <div class="ccc">
+         <img src="{$r[thumb]}" width="128" height="86" />
+        <p class="miaoshu">{str_cut($r[description],80)}</p>
+        <p class="xiangxi"><a href="{$r[url]}">详细内容>></a></p>
+      </div>
+     {/if}
+     {/get}      
+      <ul>
+         {get sql="SELECT * FROM `sin_content` WHERE `catid` = '11'" rows="6" }
+    {if $n !=1}
+        <li><span style="float:right;">[{date("Y-m-d",$r[updatetime])}]</span><a href="{$r[url]}">{str_cut($r[title],40)}</a></li>
+     {/if}
+     {/get}
+      </ul>
+    </div>
+    <div id="con_a_3" class="cc" style="display:none;" >
+       {get sql="SELECT * FROM `sin_content` WHERE `catid` = '13'" rows="1" }
+      {if $n ==1}
+      <p class="biaoti"><a href="{$r[url]}">{str_cut($r[title],40)}</a></p>
+      <div class="ccc">
+         <img src="{$r[thumb]}" width="128" height="86" />
+        <p class="miaoshu">{str_cut($r[description],80)}</p>
+        <p class="xiangxi"><a href="{$r[url]}">详细内容>></a></p>
+      </div>
+     {/if}
+     {/get} 
+      <ul>
+    {get sql="SELECT * FROM `sin_content` WHERE `catid` = '13'" rows="6" }
+    {if $n !=1}
+        <li><span style="float:right;">[{date("Y-m-d",$r[updatetime])}]</span><a href="{$r[url]}">{str_cut($r[title],40)}</a></li>
+     {/if}
+     {/get}
+      </ul>
+    </div>
+    <div id="con_a_4" class="cc" style="display:none;" >
+         {get sql="SELECT * FROM `sin_content` WHERE `catid` = '13'" rows="1" }
+      {if $n ==1}
+      <p class="biaoti"><a href="{$r[url]}">{str_cut($r[title],40)}</a></p>
+      <div class="ccc">
+         <img src="{$r[thumb]}" width="128" height="86" />
+        <p class="miaoshu">{str_cut($r[description],80)}</p>
+        <p class="xiangxi"><a href="{$r[url]}">详细内容>></a></p>
+      </div>
+     {/if}
+     {/get}   
+    <ul>
+         {get sql="SELECT * FROM `sin_content` WHERE `catid` = '13'" rows="6" }
+    {if $n !=1}
+        <li><span style="float:right;">[{date("Y-m-d",$r[updatetime])}]</span><a href="{$r[url]}">{str_cut($r[title],40)}</a></li>
+     {/if}
+     {/get}
+      </ul>
+    </div>
+    <script type="text/javascript">
+function setTab(name,cursel,n){
+for(i=1;i<=n;i++){
+var menu=document.getElementById(name+i);
+var con=document.getElementById("con_"+name+"_"+i);
+menu.className=i==cursel?"curr":"";
+con.style.display=i==cursel?"block":"none";}
+}
+</script> 
+  </div>
+  <div class="main-right">
+    <div class="hh2">新品推荐</div>
+     <div class="slide">
+    <div class="FocusPic">
+        <div class="content" id="main-slide">
+            <div class="changeDiv">
+               {tag_首页推荐产品}
+         {loop $data $n $v}
+                 <a href="{$v[url]}" title="{str_cut($v[title],15)}"><img src="{$v[thumb]}" width="196" height="147" /></a>
+            {/loop}
+             {/tag}
+             </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript"> 
+$(function(){
+	new slide("#main-slide","cur",205,145,1);//焦点图
+})
+function $jquery(id){return document.getElementById(id)
+ };
+</script>
+
+
+    <p style="padding-top:10px;"><img src="skin/images/lianxi.jpg" width="210" height="84" /></p>
+  </div>
+</div>
+<!--{template 'phpsin','footer'}-->

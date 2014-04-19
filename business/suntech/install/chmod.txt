@@ -1,0 +1,4 @@
+index.php
+data/cache/*
+sin/*
+uploadfile/*

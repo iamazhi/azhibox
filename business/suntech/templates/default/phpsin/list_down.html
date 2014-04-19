@@ -1,0 +1,38 @@
+<!--{template 'phpsin','header'}-->
+ <div class="bannerer"><script language="javascript" src="{SITE_URL}/data/js.php?id=1"></script></div>
+<div class="main">
+  <div class="left">
+    <div class="hh2">栏目导航</div>
+    <div class="daohang">
+      <ul>
+       {get sql="SELECT * FROM `sin_category` WHERE `parentid` = '5'" rows="10" }
+        <li><a href="{$r[url]}">{$r[name]}</a></li>
+         {/get}
+      </ul>
+    </div>
+    <p style="padding-top:10px;"><img src="skin/images/lianxi.jpg" width="210" height="84" /></p>
+  </div>
+  <div class="right">
+    <div class="hh3">
+      <div class="location" style="float:right;">当前位置：<a href="/">网站首页</a>{$catpos($catid)}</div>
+      <div class="hh4">{get sql="SELECT * FROM `sin_category` WHERE `catid` = '$catid'" rows="10" }{$r[name]}
+
+{/get}</div>
+    </div>
+    <div class="down">
+      <ul>
+       {tag_下载列表}
+        {loop $data $n $v}
+         <li>
+          <p><span class="biaoti2"><a href="/">{str_cut($v[title],30)}</a></span><span class="shijian">2014-03-20</span></p>
+          <p class="miaoshu">{$v[description]}</p>
+          <p class="xiazai"><a href="{$v[down1]}">点击下载</a></p>
+        </li>
+         {/loop}
+         {/tag}
+           </ul>
+      <div class="pagess">{$pages[1]}</div>
+    </div>
+  </div>
+</div>
+<!--{template 'phpsin','footer'}-->

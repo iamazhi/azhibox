@@ -1,0 +1,28 @@
+<?php
+return array (
+  'catid' => '81',
+  'module' => 'phpsin',
+  'modelid' => '0',
+  'type' => '2',
+  'contentid' => '0',
+  'parentid' => '78',
+  'arrparentid' => '0,78',
+  'child' => '0',
+  'arrchildid' => '81',
+  'menuid' => '197',
+  'pid' => '194',
+  'modelname' => '外部连接',
+  'style' => '',
+  'name' => '联系我们',
+  'parentdir' => 'sin/gywc/',
+  'catdir' => '',
+  'url' => 'list.php?catid=8',
+  'img' => '',
+  'title' => '',
+  'keywords' => '',
+  'description' => '',
+  'ismenu' => '0',
+  'hits' => '0',
+  'listorder' => '0',
+);
+?>

@@ -1,0 +1,55 @@
+<!--{template 'member','header'}-->
+<div class="container">
+  
+  <div class="content" id="top_t">
+  <ul id="menu">
+            <li class="sec1"><a href="../member">我的首页</a></li>
+            <li class="sec1"><a href="../member/index.php?template=order">订单管理</a></li>
+            <li class="sec1"><a href="../member/index.php?template=pay&type=amount">财务管理</a></li>
+            <li class="sec2"><a href='index.php?template=account'>账户管理</a></li>
+        </ul>
+        
+        <ul id="main">
+               <li class=block id="m_left">
+                 
+<dl class='bitem'>
+        <dt onClick='showHide("items1_1")'><b>基本操作</b></dt>
+        <dd style='display:block' class='sitem' id='items1_1'>
+          <div class='sitemu'>
+            <p><a href='index.php?template=account'>账户管理</a></p>
+            <p><a href='index.php?template=modify' >修改资料</a></p>
+            <p><a href='index.php?template=pwd'>修改密码</a></p>
+            <p><a href='../' target='_blank'>返回首页</a></p>
+          </div>
+        </dd>
+      </dl>
+                      
+               </li>
+               <li class=unblock id="m_left"></li>
+               
+              
+               </ul>
+                 <div id="m_right">
+                  <ul class="my_nav" id="top_t">
+                    <li class="sec_2">邮箱认证</li>
+                  </ul>
+                  <div class="info_box">
+                    <div class="g_l_box"><img src="../style/images/member_g.gif" /></div>
+    <div class="g_r_box">
+       <ul class="l_box"><span>欢迎您！{$username}</span>
+       <li>账户余款：<font class="font_orange f_c">{$info[amount]}</font>元</li>
+       <li>可用积分：{$info[point]}</li>
+       </ul>
+    </div>
+    
+   <div class="g_r_box" id="top_t">
+     <p>买家信用等级：</p>
+     <p>本次登陆IP：{$info[lastloginip]}    本次时间：{date("Y-m-d H:i:s",$info[lastlogintime])}</p>
+
+        </div>
+      </div>       
+    </div>
+  </div>  
+<!--{template 'member','footer'}-->
+</body>
+</html>

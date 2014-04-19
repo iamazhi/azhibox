@@ -1,0 +1,28 @@
+<!--{template 'member','header'}-->
+<div class="container">
+<div class="content" id="top_t">
+     <div class="login_l"><img src="../style/images/login_banner.jpg" /></div>
+     <div class="login_box">
+       <ul class="login_ul">
+        <div class="caption f_d f_c">会员登陆</div>
+        <form action="?login=login" method="post">
+        <label>账户名：<input name="username" type="text" value="用户名/手机邮箱"  id="field"/></label>
+        
+        <label>密　码：<input name="password" type="password" id="field"/>
+        </label>
+        
+        <p><input name="" type="checkbox" value="" />一周内自动登陆</p>
+        
+         <li class="login_btn"><div class="btn"><input name="submit" type="image" src="../style/images/login_btn.gif" style="width:86px;height:26px; border:0px;" /></div>
+         <span class="f_blue"><a href="register.php?mod=member">忘记密码？</a></span>
+         </li>
+        </form>
+        
+       
+        <li><font class="f_blue"><a href="register.php?mod=member">免费注册</a></font></li>
+       </ul>
+     </div>
+  </div>
+  <div class="content" id="top_t">
+   {template 'member','footer'}
+</div>

@@ -1,0 +1,28 @@
+<?php
+return array (
+  'catid' => '53',
+  'module' => 'phpsin',
+  'modelid' => '0',
+  'type' => '2',
+  'contentid' => '0',
+  'parentid' => '9',
+  'arrparentid' => '0,9',
+  'child' => '0',
+  'arrchildid' => '53',
+  'menuid' => '451',
+  'pid' => '409',
+  'modelname' => '外部连接',
+  'style' => '',
+  'name' => '客户留言',
+  'parentdir' => '',
+  'catdir' => '',
+  'url' => 'guestbook/',
+  'img' => '',
+  'title' => '',
+  'keywords' => '',
+  'description' => '',
+  'ismenu' => '1',
+  'hits' => '0',
+  'listorder' => '0',
+);
+?>

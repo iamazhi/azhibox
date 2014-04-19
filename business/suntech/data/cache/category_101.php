@@ -1,0 +1,28 @@
+<?php
+return array (
+  'catid' => '101',
+  'module' => 'phpsin',
+  'modelid' => '0',
+  'type' => '2',
+  'contentid' => '0',
+  'parentid' => '0',
+  'arrparentid' => '0',
+  'child' => '0',
+  'arrchildid' => '101',
+  'menuid' => '217',
+  'pid' => '22',
+  'modelname' => '外部连接',
+  'style' => '',
+  'name' => '论坛交流',
+  'parentdir' => 'sin/',
+  'catdir' => '',
+  'url' => '/',
+  'img' => '',
+  'title' => '',
+  'keywords' => '',
+  'description' => '',
+  'ismenu' => '1',
+  'hits' => '0',
+  'listorder' => '0',
+);
+?>

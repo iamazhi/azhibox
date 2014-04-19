@@ -1,0 +1,6 @@
+<?php
+return array (
+  'default' => 'Ä¬ÈÏ·ç¸ñ',
+  'web' => '',
+);
+?>

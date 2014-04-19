@@ -1,0 +1,28 @@
+<?php
+return array (
+  'catid' => '74',
+  'module' => 'phpsin',
+  'modelid' => '0',
+  'type' => '2',
+  'contentid' => '22',
+  'parentid' => '0',
+  'arrparentid' => '0',
+  'child' => '1',
+  'arrchildid' => '74,75,76,77',
+  'menuid' => '190',
+  'pid' => '22',
+  'modelname' => '外部连接',
+  'style' => '',
+  'name' => '售后服务',
+  'parentdir' => '',
+  'catdir' => 'sin/',
+  'url' => '/',
+  'img' => '',
+  'title' => '售后服务',
+  'keywords' => '',
+  'description' => '',
+  'ismenu' => '0',
+  'hits' => '0',
+  'listorder' => '0',
+);
+?>

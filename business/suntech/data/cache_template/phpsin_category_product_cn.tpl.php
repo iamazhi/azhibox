@@ -1,0 +1,1 @@
+<?php defined('IN_PHPJSJ') or exit('Access Denied'); ?>

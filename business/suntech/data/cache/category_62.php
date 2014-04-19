@@ -1,0 +1,28 @@
+<?php
+return array (
+  'catid' => '62',
+  'module' => 'phpsin',
+  'modelid' => '0',
+  'type' => '2',
+  'contentid' => '10',
+  'parentid' => '0',
+  'arrparentid' => '0',
+  'child' => '1',
+  'arrchildid' => '62,63,64,65,66',
+  'menuid' => '178',
+  'pid' => '22',
+  'modelname' => '外部连接',
+  'style' => '',
+  'name' => '新手指南',
+  'parentdir' => '',
+  'catdir' => 'sin/',
+  'url' => '/',
+  'img' => '',
+  'title' => '新手指南',
+  'keywords' => '',
+  'description' => '',
+  'ismenu' => '0',
+  'hits' => '0',
+  'listorder' => '0',
+);
+?>
