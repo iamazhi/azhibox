@@ -16,13 +16,13 @@ li { list-style:none;}
 
 /*--------------------------index--------------------------*/
 /* Header */
-#header    { background:url(images/headbg.jpg) repeat-x left top; height:99px; border-bottom: solid 3px #e60000; }
-#headerBox { width:1100px; margin:0 auto; }
+#header    { background:url(images/headbg.jpg) repeat-x left top; height:99px; border-bottom: solid 3px #e60000;}
+#headerBox { width:1100px; margin:0 auto; position: relative;}
 #logoBox   { float:left; padding-top:30px; }
 #logoName  { font-size: 24px; color: #5c5c5c; letter-spacing: 0.4em}
-#navBox    { float:right; width:785px; position: relative}
+#navBox    { float:right; width:785px;}
 
-#nav {position: absolute; top: 40px; right: 0px;}
+#nav {position: absolute; bottom: 0px; right: 0px;}
 #nav li { float:left; width:98px; height:40px; line-height:19px; padding-top:8px; text-align:center; font-size:14px; color:#5c5c5c;}
 #nav li a { display:block; color:#5c5c5c; height:40px; line-height:19px; padding-top:8px;}
 #nav li a:hover { background:url(images/navbg.png) no-repeat center top; height:40px; padding-top:8px; color:#FFF;}
