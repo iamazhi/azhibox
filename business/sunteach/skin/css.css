@@ -25,7 +25,7 @@ li { list-style:none;}
 
 #nav {position: absolute; bottom: 0px; right: 0px;}
 #nav li { float:left; width:98px;  text-align:center; font-size:14px; color:#5c5c5c;}
-#nav li a { display:block; color:#5c5c5c;}
+#nav li a { display:block; color:#5c5c5c; font-weight: bold}
 #nav li a:hover { background:url(images/navbg.png) no-repeat center top; color:#FFF;}
 
 #nav li.selected { background:url(images/navbg.png) no-repeat center top; color:#FFF;}
