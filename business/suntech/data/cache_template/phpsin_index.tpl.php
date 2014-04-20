@@ -1,4 +1,4 @@
-<!--{template 'phpsin','header'}-->
+<?php defined('IN_PHPJSJ') or exit('Access Denied'); ?><?php include template('phpsin','header'); ?>
 <div id="banner"><img src="skin/images/banner.jpg"></div>
 <div id="slogan"><p>我们诚心为您提供最稳定的产品，最专业的技术方案，最全面的贴心服务。</p></div>
 <div id="ours">
@@ -44,7 +44,7 @@
     <div class="cellBox11"><div class="cell padding-l padding-b"><img src="skin/images/Nipic_11840347_20130820104422632178.jpg"></div></div>
     <div class="cellBox11"><div class="cell padding-t padding-r padding-b"><img src="skin/images/Nipic_9808227_20120424153557179114.jpg"></div></div>
     <div class="cellBox22"><div class="cell padding-t padding-l"><img src="skin/images/Nipic_218586_20100319131605084941.jpg"></div></div>
-	<div class="clear"></div>
+<div class="clear"></div>
     <div class="cellBox11" id="customBox2">
       <div class="cell padding-t padding-r">
         <div><a class="custom-font" href="index.php?file=list&catid=46">更多..</a></div>
@@ -57,9 +57,9 @@
   <div class="title"><a class="custom-font" >友情链接</a></div>
   <div class="desc"><p>凡是经过考验的朋友，就应该把他们紧紧地团结在你的周围。--莎士比亚</p></div>
   <div class="links">
-    {get sql="SELECT * FROM `sin_link` WHERE linktype=2 AND passed=1" rows="20" }
-     <a href="{$r[url]}" target="_blank">{$r[name]}</a>
-    {/get}
+    <?php $DATA = get("SELECT * FROM `sin_link` WHERE linktype=2 AND passed=1", 20, 0, "", "");foreach($DATA AS $n => $r) { $n++;?>
+     <a href="<?php echo $r['url'];?>" target="_blank"><?php echo $r['name'];?></a>
+    <?php } unset($DATA); ?>
   </div>
 
 </div>
@@ -76,4 +76,4 @@
   </div>
 </div>
 
-<!--{template 'phpsin','footer'}-->
+<?php include template('phpsin','footer'); ?>

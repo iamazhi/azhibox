@@ -1,38 +1,28 @@
 <!--{template 'phpsin','header'}-->
- <div class="bannerer"><script language="javascript" src="http://4113.website.meiray.net/data/js.php?id=1"></script></div>
+<div class="bannerer"><script language="javascript" src="{SITE_URL}/data/js.php?id=1"></script></div>
 <div class="main">
   <div class="left">
-    <div class="hh2">栏目导航</div>
+    <div class="title"><h3>栏目导航</h3></div>
     <div class="daohang">
-      <ul>
-{tag_栏目列表}
- {loop $data $n $v}
-<li><a href="{$v[url]}" >{$v[name]}</a></li>
-{/loop}
-{/tag}
-      </ul>
+      <ul> {tag_栏目列表} {loop $data $n $v} <li><a href="{$v[url]}" >{$v[name]}</a></li> {/loop} {/tag} </ul>
     </div>
     <p style="padding-top:10px;"><img src="skin/images/lianxi.jpg" width="210" height="84" /></p>
   </div>
   <div class="right">
     <div class="hh3">
       <div class="location" style="float:right;">当前位置：<a href="/">网站首页</a>{$catpos($catid)}</div>
-      <div class="hh4">{get sql="SELECT * FROM `sin_category` WHERE `catid` = '$catid'" rows="10" }{$r[name]}
-
-{/get}</div>
-    </div>
+      <div class="hh4">{get sql="SELECT * FROM `sin_category` WHERE `catid` = '$catid'" rows="10" }{$r[name]} {/get}</div> </div>
     <div class="products">
       <ul>
-
        {tag_商品列表}
- {loop $data $n $v}
+ 		{loop $data $n $v}
        <li><img src="{$v[thumb]}" width="150" height="150" />
           <p class="biaoti5"><a href="{$v[url]}">{str_cut($v[title],30)}</a></p>
           <p class="miaoshu3">{str_cut($v[description],100)}<span class="xiangxi1"><a href="{$v[url]}">[详细]</a></span></p>
         </li>
        {/loop}
-        {/tag}
-             </ul>
+       {/tag}
+      </ul>
       <div class="pages">{$pages[1]}</div>
     </div>
   </div>

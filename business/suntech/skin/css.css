@@ -75,10 +75,12 @@ li { list-style:none;}
 #customBox2 .cell div a{color: white; font-size: 25px; line-height: 115px;}
 
 /* Friends */
+#friends {width: 1100px; margin: 0 auto; text-align: center}
 #friends .title, #friends .desc {text-align: center}
 #friends .title a {font-size: 20px; padding-top: 15px; border-top: 1px solid #373737; color: #5c5c5c}
 #friends .desc  {color: #878787; font-size: 14px;}
 #friends .links {text-align: center; padding: 20px;}
+#friends .links a {color: #878787; font-size: 14px;}
 
 /* LiteFooter */
 #liteFooter {width: 1100px; height: 80px; margin: 0 auto; background: #fafafa; border-top: 1px solid #e5e5e5;}
@@ -92,35 +94,56 @@ li { list-style:none;}
 #liteFooter .rightBox a:hover { background: #f20000}
 
 /* Footer */
-#footer {height: 255px; background: #5c5c5c}
-#footer > div { width: 33.33%; height:100%; float:left;}
-#footer > div > div {padding: 30px;}
+#footer {height: 305px; background: #5c5c5c;}
+#footerContent {height: 255px;}
+#footerContent > div { width: 33.33%; height:100%; float:left;}
+#footerContent > div > div {padding: 30px;}
 #footer .title {text-align: left}
 #footer .title a {font-size: 18px; font-weight: lighter; padding-top: 15px; border-top: 1px solid white; color: white}
 #footer .title a:hover { color: #c4121d}
 #footer .desc p {font-size: 14px; color: #c9c9c9}
 #footer .desc p a{color: #c4121d}
 #footer .icon-star {color: #c4121d}
-
-/* CopyRights */
 #copyRights {background: #f2f2f2; height: 50px;}
 #copyRights span {font-size: 18px; color: #5c5c5c; padding:10px; }
 #copyRights .left {text-align: left}
 #copyRights .right {text-align: right}
 
-/*----------------------------list_news-------------------------------*/
+/*----------------------------Left nav-------------------------------*/
+.main{ width:1100px; margin:0 auto; padding-top:15px; padding-bottom:20px; overflow:hidden; height:100%; min-height: 500px}
+.main .left{ float:left; width:250px;}
+.main .title    {padding-right:30px; height:30px; }
+.main .title h3 { font-family:"ËÎÌå"; color:#FFF; background: #f20000;line-height:30px; font-size:14px; font-weight:bold; padding-left: 20px;}
+.main .left .daohang {padding-right: 30px;}
+.main .left .daohang li{ margin-top:1px; color:#6b6c6c; background: #eee}
+.main .left .daohang li.selectd{ background: #ddd; color:#FFF;}
+.main .left .daohang a{ display:block; height:29px; padding-left:20px; line-height:29px;color:#6b6c6c; overflow:hidden; height:100%;}
+.main .left .daohang a:before{
+content: "";
+border-left: 4px solid red;
+border-top: 4px solid transparent;
+border-bottom: 4px solid transparent;
+border-right: 0 none;
+display: inline-block;
+height: 0;
+width: 0;
+padding-left: 5px;
+margin-bottom: 5px;
+vertical-align: middle;
+}
+.main .left .daohang li:hover   {background:#f20000; }
+.main .left .daohang li:hover a {color:#FFF;}
+.main .left .daohang li:hover a:before {color:#FFF;}
 
-.bannerer{ width:960px; margin:0 auto; padding-top:10px;}
-.left{ float:left; width:210px;}
-.right{ float:right; width:728px;}
+.main .right{ float:right; width:850px;}
+.main .right .single{ padding:15px 5px 20px 5px; color:#4a4a4a; font-size: 14px;}
 
-.daohang li{ margin-top:1px; color:#6b6c6c;}
-.daohang li.selectd{ background:url(images/libg1.jpg) no-repeat left top; color:#FFF;}
-.daohang a{ display:block; background:url(images/libg.jpg) no-repeat left top; height:29px; line-height:29px; padding-left:25px; color:#6b6c6c; overflow:hidden; height:100%;}
-.daohang a:hover{ background:url(images/libg1.jpg) no-repeat left top; color:#FFF;}
 
 .hh3{ height:25px; line-height:25px; border-bottom:solid 1px #d6d6d6; position:relative;}
-.hh4{ position:absolute; left:0; bottom:-1px; _bottom:-2px; font-family:"å¾®è½¯é›…é»‘"; font-size:12px; color:#333333; border-bottom:solid 2px #176eb1;}
+.hh4{ position:absolute; left:0; bottom:-1px; _bottom:-2px; font-family:"ËÎÌå"; font-size:16px; color:#333333; border-bottom:solid 2px #176eb1;}
+
+/*----------------------------list_news-------------------------------*/
+.bannerer{ width:960px; margin:0 auto; padding-top:10px;}
 
 .location{ padding-right:10px; color:#555555;}
 .location a{ background:url(images/location.jpg) no-repeat right center; padding:0 15px 0 5px; color:#555555;}
@@ -164,7 +187,6 @@ li { list-style:none;}
 
 /*-------------------------show_news-------------------------------*/
 
-.title{ font-size:14px; font-weight:bold; color:#4a4a4a; text-align:center; padding-top:20px; padding-bottom:8px;}
 .fabu{ padding-bottom:8px; text-align:center; border-bottom:dashed 1px #b7b7b7; color:#6b6c6c;}
 .content{ padding:15px 5px 20px 5px; color:#333333;}
 .fenye{ border-top:dashed 1px #b7b7b7; padding-top:10px; color:#6b6c6c;}
@@ -187,7 +209,6 @@ li { list-style:none;}
 
 /*-------------------------single---------------------------*/
 
-.single{ padding:15px 5px 20px 5px; color:#4a4a4a;}
 .bb{ font-size:14px; font-weight:bold;}
 
 

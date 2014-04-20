@@ -1,50 +1,36 @@
 <?php defined('IN_PHPJSJ') or exit('Access Denied'); ?><?php include template('phpsin','header'); ?>
- <div class="bannerer"><script language="javascript" src="<?php echo SITE_URL;?>/data/js.php?id=1"></script></div>
+<div class="bannerer"><script language="javascript" src="<?php echo SITE_URL;?>/data/js.php?id=1"></script></div>
 <div class="main">
   <div class="left">
     <div class="hh2">栏目导航</div>
     <div class="daohang">
-      <ul>
-<?php $data = tag('phpsin', '', "SELECT * FROM sin_category WHERE ".get_parentid($catid)."", 0, 101);?>
- <?php if(is_array($data)) foreach($data AS $n => $v) { ?>
-<li><a href="<?php echo $v['url'];?>" ><?php echo $v['name'];?></a></li>
-<?php } ?>
-<?php unset($data); ?>
-      </ul>
+      <ul> <?php $data = tag('phpsin', '', "SELECT * FROM sin_category WHERE ".get_parentid($catid)."", 0, 101);?> <?php if(is_array($data)) foreach($data AS $n => $v) { ?> <li><a href="<?php echo $v['url'];?>" ><?php echo $v['name'];?></a></li> <?php } ?> <?php unset($data); ?> </ul>
     </div>
     <p style="padding-top:10px;"><img src="skin/images/lianxi.jpg" width="210" height="84" /></p>
   </div>
-<div class="right">
+  <div class="right">
     <div class="hh3">
       <div class="location" style="float:right;">当前位置：<a href="/">网站首页</a><?php echo catpos($catid);?></div>
-      <div class="hh4"><?php $DATA = get("SELECT * FROM `sin_category` WHERE `catid` = '$catid'", 10, 0, "", "");foreach($DATA AS $n => $r) { $n++;?><?php echo $r['name'];?>
-<?php } unset($DATA); ?></div>
+      <div class="hh4"><?php $DATA = get("SELECT * FROM `sin_category` WHERE `catid` = '$catid'", 10, 0, "", "");foreach($DATA AS $n => $r) { $n++;?><?php echo $r['name'];?> <?php } unset($DATA); ?></div>
     </div>
     <div class="neirong">
       <div class="pro-top">
         <div id="preview">
 <div class="jqzoom" id="spec-n1">
-    <?php $DATA = get("SELECT * FROM `sin_attachment` WHERE `contentid` = '$contentid'", 1, 0, "", "");foreach($DATA AS $n => $r) { $n++;?>
-    <IMG height=350 src="<?php echo UPLOAD_URL;?><?php echo $r['filepath'];?>" jqimg="<?php echo UPLOAD_URL;?><?php echo $r['filepath'];?>" width=350> 
-      <?php } unset($DATA); ?>
+   	      <?php $DATA = get("SELECT * FROM `sin_attachment` WHERE `contentid` = '$contentid'", 1, 0, "", "");foreach($DATA AS $n => $r) { $n++;?>
+          <IMG height=350 src="<?php echo UPLOAD_URL;?><?php echo $r['filepath'];?>" jqimg="<?php echo UPLOAD_URL;?><?php echo $r['filepath'];?>" width=350> 
+          <?php } unset($DATA); ?>
 </div>
 <div id="spec-n5">
 <div class="control" id="spec-left">
 <img src="skin/images/left.gif" />
 </div>
 <div id="spec-list">
-<ul class="list-h">
-                                          <?php $DATA = get("SELECT * FROM `sin_attachment` WHERE `contentid` = '$contentid'", 10, 0, "", "");foreach($DATA AS $n => $r) { $n++;?>
-                                            <li><img src="<?php echo UPLOAD_URL;?><?php echo $r['filepath'];?>" > </li>
-
-                                           <?php } unset($DATA); ?>
-
-           	</ul>
+  <ul class="list-h">
+          <?php $DATA = get("SELECT * FROM `sin_attachment` WHERE `contentid` = '$contentid'", 10, 0, "", "");foreach($DATA AS $n => $r) { $n++;?> <li><img src="<?php echo UPLOAD_URL;?><?php echo $r['filepath'];?>" > </li> <?php } unset($DATA); ?>
+      </ul>
 </div>
-<div class="control" id="spec-right">
-<img src="skin/images/right.gif" />
-</div>
-
+<div class="control" id="spec-right"> <img src="skin/images/right.gif" /> </div>
     </div>
 </div>  
        <SCRIPT type=text/javascript>
@@ -107,4 +93,5 @@ $(this).css({
       <div class="fenye1"> <span style="padding-left:15px;">上一个：<a href="<?php echo $pre['url'];?>" title="<?php echo $pre['title'];?>"><?php echo $pre['title'];?></a></span> <span style="padding-left:180px;">下一个：<a href="<?php echo $next['url'];?>" title="<?php echo $next['title'];?>"><?php echo $next['title'];?></a></span> </div>
     </div>
   </div>
-</div><?php include template('phpsin','footer'); ?>
+</div>
+<?php include template('phpsin','footer'); ?>
