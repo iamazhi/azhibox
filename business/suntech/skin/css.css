@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@font-face { font-family: fzcuqian; src: url("font/fzcuqian.ttf"); }
+@font-face { font-family: fzcuqian; src: url("font/fzcuqian.ttf");}
 .custom-font { font-family: fzcuqian; }
 
 * { margin:0; padding:0;}
@@ -94,7 +94,7 @@ li { list-style:none;}
 #liteFooter .rightBox a:hover { background: #f20000}
 
 /* Footer */
-#footer {height: 305px; background: #5c5c5c;}
+#footer {height: 255px; background: #5c5c5c;}
 #footerContent {height: 255px;}
 #footerContent > div { width: 33.33%; height:100%; float:left;}
 #footerContent > div > div {padding: 30px;}
@@ -104,13 +104,14 @@ li { list-style:none;}
 #footer .desc p {font-size: 14px; color: #c9c9c9}
 #footer .desc p a{color: #c4121d}
 #footer .icon-star {color: #c4121d}
-#copyRights {background: #f2f2f2; height: 50px;}
+
+#copyRights {background: #f2f2f2; height: 50px; position: fixed; bottom: 0px;}
 #copyRights span {font-size: 18px; color: #5c5c5c; padding:10px; }
-#copyRights .left {text-align: left}
-#copyRights .right {text-align: right}
+#copyRights .left {float: left}
+#copyRights .right {float: right}
 
 /*----------------------------Left nav-------------------------------*/
-.main{ width:1100px; margin:0 auto; padding-top:15px; padding-bottom:20px; overflow:hidden; height:100%; min-height: 500px}
+.main{ width:1100px; margin:0 auto; padding-top:15px; padding-bottom:20px; overflow:hidden; height:100%;}
 .main .left{ float:left; width:250px;}
 .main .title    {padding-right:30px; height:30px; }
 .main .title h3 { font-family:"ËÎÌו"; color:#FFF; background: #f20000;line-height:30px; font-size:14px; font-weight:bold; padding-left: 20px;}
