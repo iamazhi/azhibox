@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "gb2312";
 /* CSS Document */
 
 @font-face { font-family: fzcuqian; src: url("font/fzcuqian.ttf");}
@@ -25,7 +25,7 @@ li { list-style:none;}
 
 #nav {position: absolute; bottom: 0px; right: 0px;}
 #nav li { float:left; width:98px;  text-align:center; font-size:14px; color:#5c5c5c;}
-#nav li a { display:block; color:#5c5c5c; font-weight: bold}
+#nav li a { display:block; color:#5c5c5c;}
 #nav li a:hover { background:url(images/navbg.png) no-repeat center top; color:#FFF;}
 
 #nav li.selected { background:url(images/navbg.png) no-repeat center top; color:#FFF;}
@@ -77,7 +77,7 @@ li { list-style:none;}
 /* Friends */
 #friends {width: 1100px; margin: 0 auto; text-align: center}
 #friends .title, #friends .desc {text-align: center}
-#friends .title a {font-size: 20px; padding-top: 15px; border-top: 1px solid #373737; color: #5c5c5c}
+#friends .title a {font-size: 20px; padding-top: 15px; border-top: 1px solid #373737; color: #5c5c5c; font-weight: bold}
 #friends .desc  {color: #878787; font-size: 14px;}
 #friends .links {text-align: center; padding: 20px;}
 #friends .links a {color: #878787; font-size: 14px;}
@@ -96,7 +96,7 @@ li { list-style:none;}
 /* Footer */
 #footer {height: 255px; background: #5c5c5c;}
 #footerContent {height: 255px;}
-#footerContent > div { width: 33.33%; height:100%; float:left;}
+#footerContent > div { width: 33%; height:100%; float:left;}
 #footerContent > div > div {padding: 30px;}
 #footer .title {text-align: left}
 #footer .title a {font-size: 18px; font-weight: lighter; padding-top: 15px; border-top: 1px solid white; color: white}
@@ -104,18 +104,23 @@ li { list-style:none;}
 #footer .desc p {font-size: 14px; color: #c9c9c9}
 #footer .desc p a{color: #c4121d}
 #footer .icon-star {color: #c4121d}
+#newProducts img{width: 20%}
 
+#hiddenCopyRights {height: 50px; width:1px;}
 #copyRights {background: #f2f2f2; height: 50px; position: fixed; bottom: 0px; width:100%;}
 #copyRights >div {width:1100px; margin: 0 auto}
 #copyRights div div {font-size: 18px; color: #5c5c5c; padding:10px; }
 #copyRights .left {float: left}
 #copyRights .right {float: right}
 
+/*----------------------------Bannerer-------------------------------*/
+.bannerer{ width:1100px; margin:0 auto; padding-top:10px;}
+.bannerer img{ width:1100px;}
 /*----------------------------Left nav-------------------------------*/
 .main{ width:1100px; margin:0 auto; padding-top:15px; padding-bottom:20px; overflow:hidden; height:100%;}
-.main .left{ float:left; width:250px;}
+.main .left{ float:left; width:240px;}
 .main .title    {padding-right:30px; height:30px; }
-.main .title h3 { font-family:"ËÎÌו"; color:#FFF; background: #f20000;line-height:30px; font-size:14px; font-weight:bold; padding-left: 20px;}
+.main .title h3 { font-family:"ËÎÌו"; color:#FFF; background: url(images/main-title-bg.png); line-height:30px; font-size:14px; font-weight:bold; padding-left: 25px;}
 .main .left .daohang {padding-right: 30px;}
 .main .left .daohang li{ margin-top:1px; color:#6b6c6c; background: #eee}
 .main .left .daohang li.selectd{ background: #ddd; color:#FFF;}
@@ -145,8 +150,6 @@ vertical-align: middle;
 .hh4{ position:absolute; left:0; bottom:-1px; _bottom:-2px; font-family:"ËÎÌו"; font-size:16px; color:#333333; border-bottom:solid 2px #176eb1;}
 
 /*----------------------------list_news-------------------------------*/
-.bannerer{ width:960px; margin:0 auto; padding-top:10px;}
-
 .location{ padding-right:10px; color:#555555;}
 .location a{ background:url(images/location.jpg) no-repeat right center; padding:0 15px 0 5px; color:#555555;}
 .location a:hover{ color:#555555;}
