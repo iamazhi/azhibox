@@ -102,24 +102,24 @@
 </div>
   </div>
 
-  <div>
+  <div id="newProducts">
    <div>
   <div class="title"><a class="custom-font" href="index.php?file=list&catid=5">ÐÂÆ·ÍÆ¼ö</a></div>
   <div class="desc">
 <div>
 <?php $data = tag('phpsin', '', "SELECT a.contentid,a.catid,a.title,a.style,a.thumb,a.url FROM `sin_content` a, `sin_content_position` p WHERE a.contentid=p.contentid AND p.posid=2 AND a.status=99  ".get_sql_catid(5)." ORDER BY a.contentid DESC", $page, 6, 5);$pages=$data[pages];$data=$data[data];?>
-  <a href="<?php echo $data['1']['url'];?>" title="<?php echo str_cut($data[1][title],15);?>"><img src="<?php echo $data['1']['thumb'];?>" width="90" height="70" /></a>
-  <a href="<?php echo $data['2']['url'];?>" title="<?php echo str_cut($data[2][title],15);?>"><img src="<?php echo $data['2']['thumb'];?>" width="90" height="70" /></a>
-  <a href="<?php echo $data['3']['url'];?>" title="<?php echo str_cut($data[3][title],15);?>"><img src="<?php echo $data['3']['thumb'];?>" width="90" height="70" /></a>
-  <a href="<?php echo $data['4']['url'];?>" title="<?php echo str_cut($data[4][title],15);?>"><img src="<?php echo $data['4']['thumb'];?>" width="90" height="70" /></a>
+  <a href="<?php echo $data['1']['url'];?>" title="<?php echo str_cut($data[1][title],15);?>"><img src="<?php echo $data['1']['thumb'];?>" height="70" /></a>
+  <a href="<?php echo $data['2']['url'];?>" title="<?php echo str_cut($data[2][title],15);?>"><img src="<?php echo $data['2']['thumb'];?>" height="70" /></a>
+  <a href="<?php echo $data['3']['url'];?>" title="<?php echo str_cut($data[3][title],15);?>"><img src="<?php echo $data['3']['thumb'];?>" height="70" /></a>
+  <a href="<?php echo $data['4']['url'];?>" title="<?php echo str_cut($data[4][title],15);?>"><img src="<?php echo $data['4']['thumb'];?>" height="70" /></a>
 <?php unset($data); ?>
 </div>
 <div>
 <?php $data = tag('phpsin', '', "SELECT a.contentid,a.catid,a.title,a.style,a.thumb,a.url FROM `sin_content` a, `sin_content_position` p WHERE a.contentid=p.contentid AND p.posid=2 AND a.status=99  ".get_sql_catid(5)." ORDER BY a.contentid DESC", $page, 6, 5);$pages=$data[pages];$data=$data[data];?>
-  <a href="<?php echo $data['5']['url'];?>" title="<?php echo str_cut($data[5][title],15);?>"><img src="<?php echo $data['5']['thumb'];?>" width="90" height="70" /></a>
-  <a href="<?php echo $data['6']['url'];?>" title="<?php echo str_cut($data[6][title],15);?>"><img src="<?php echo $data['6']['thumb'];?>" width="90" height="70" /></a>
-  <a href="<?php echo $data['7']['url'];?>" title="<?php echo str_cut($data[7][title],15);?>"><img src="<?php echo $data['7']['thumb'];?>" width="90" height="70" /></a>
-  <a href="<?php echo $data['8']['url'];?>" title="<?php echo str_cut($data[8][title],15);?>"><img src="<?php echo $data['8']['thumb'];?>" width="90" height="70" /></a>
+  <a href="<?php echo $data['5']['url'];?>" title="<?php echo str_cut($data[5][title],15);?>"><img src="<?php echo $data['5']['thumb'];?>" height="70" /></a>
+  <a href="<?php echo $data['6']['url'];?>" title="<?php echo str_cut($data[6][title],15);?>"><img src="<?php echo $data['6']['thumb'];?>" height="70" /></a>
+  <a href="<?php echo $data['7']['url'];?>" title="<?php echo str_cut($data[7][title],15);?>"><img src="<?php echo $data['7']['thumb'];?>" height="70" /></a>
+  <a href="<?php echo $data['8']['url'];?>" title="<?php echo str_cut($data[8][title],15);?>"><img src="<?php echo $data['8']['thumb'];?>" height="70" /></a>
 <?php unset($data); ?>
 </div>
   </div>

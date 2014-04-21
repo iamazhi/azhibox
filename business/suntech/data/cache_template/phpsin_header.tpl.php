@@ -10,7 +10,6 @@
 <link href="skin/css.css" rel="stylesheet" type="text/css" />
 <script src="skin/jquery.js" type="text/javascript"></script>
 <script src="skin/jquery-1.2.6.pack.js" type="text/javascript"></script>
-<script src="skin/base.js" type="text/javascript"></script>
 <script src="skin/jquery.min.js" type="text/javascript"></script>
 <script src="skin/jquery.sgallery.js" type="text/javascript"></script>
 <script src="skin/home.js" type="text/javascript"></script>
