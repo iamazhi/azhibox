@@ -1,5 +1,22 @@
 <!--{template 'phpsin','header'}-->
-<div id="banner"><img src="skin/images/banner.jpg"></div>
+<div id="banner">
+  <div class="select"><a href="/" class="cur"></a><a href="/"></a><a href="/"></a><a href="/"></a> </div>
+  <ul>
+    <li style="display:block;">
+    <div class="demo">
+      <ul>
+        {get sql="SELECT * FROM `sin_focus` WHERE passed=1 and typeid=2" rows="4" }
+        {if $r[elite]==1}
+        <li {if $n==1}style="display:block;background:url({$r[thumb]}) ;background-position:top center;width:100%; height:327px;"{/if}><a href="{$r[url]}" target="_blank" ></a></li>
+        {else}
+        <li {if $n==1}style="display:block;background:url({$r[thumb]}) ;background-position:top center;width:100%; height:327px;"{/if}><a href="{$r[url]}" target="_blank"></a></li>
+        {/if}
+        {/get}
+      </ul>
+    </div>
+    <a href="/" target="_blank"></a></li>
+  </ul>
+</div>
 <div id="slogan"><p>我们诚心为您提供最稳定的产品，最专业的技术方案，最全面的贴心服务。</p></div>
 <div id="ours">
   <div class="our">

@@ -13,6 +13,7 @@
 <script src="skin/jquery.min.js" type="text/javascript"></script>
 <script src="skin/jquery.sgallery.js" type="text/javascript"></script>
 <script src="skin/home.js" type="text/javascript"></script>
+<script src="skin/banner.js" type="text/javascript"></script>
 
 </head>
 

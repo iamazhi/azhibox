@@ -1,5 +1,22 @@
 <?php defined('IN_PHPJSJ') or exit('Access Denied'); ?><?php include template('phpsin','header'); ?>
-<div id="banner"><img src="skin/images/banner.jpg"></div>
+<div id="banner">
+  <div class="select"><a href="/" class="cur"></a><a href="/"></a><a href="/"></a><a href="/"></a> </div>
+  <ul>
+    <li style="display:block;">
+    <div class="demo">
+      <ul>
+        <?php $DATA = get("SELECT * FROM `sin_focus` WHERE passed=1 and typeid=2", 4, 0, "", "");foreach($DATA AS $n => $r) { $n++;?>
+        <?php if($r[elite]==1) { ?>
+        <li <?php if($n==1) { ?>style="display:block;background:url(<?php echo $r['thumb'];?>) ;background-position:top center;width:100%; height:327px;"<?php } ?>><a href="<?php echo $r['url'];?>" target="_blank" ></a></li>
+        <?php } else { ?>
+        <li <?php if($n==1) { ?>style="display:block;background:url(<?php echo $r['thumb'];?>) ;background-position:top center;width:100%; height:327px;"<?php } ?>><a href="<?php echo $r['url'];?>" target="_blank"></a></li>
+        <?php } ?>
+        <?php } unset($DATA); ?>
+      </ul>
+    </div>
+    <a href="/" target="_blank"></a></li>
+  </ul>
+</div>
 <div id="slogan"><p>我们诚心为您提供最稳定的产品，最专业的技术方案，最全面的贴心服务。</p></div>
 <div id="ours">
   <div class="our">
