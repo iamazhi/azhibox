@@ -10,8 +10,8 @@ padding: 15px;
 .ramble .mix   {margin-bottom:15px; color:#888}
 </style>
 <div class="container">
-    <div class="col-sm-2"></div>
-    <div class="col-sm-8 ramble">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10 ramble">
       <div class="title"> {$ramble.title}</div>
       <div class="mix">
         <span><i class="icon-time"></i> {$ramble.createTime} </span>
@@ -22,6 +22,6 @@ padding: 15px;
         {$ramble.content}
       </div>
      </div>
-    <div class="col-sm-2"></div>
+    <div class="col-sm-1"></div>
 </div>
 <include file="Public:footer" />
