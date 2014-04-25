@@ -1,5 +1,5 @@
 <?php defined('IN_PHPJSJ') or exit('Access Denied'); ?><?php include template('phpsin','header'); ?>
- <div class="bannerer"><script language="javascript" src="<?php echo SITE_URL;?>/data/js.php?id=1"></script></div>
+<div class="bannerer"><script language="javascript" src="<?php echo SITE_URL;?>/data/js.php?id=1"></script></div>
 <div class="main">
   <div class="left">
     <div class="hh2">À¸Ä¿µ¼º½</div>

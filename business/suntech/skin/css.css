@@ -22,7 +22,7 @@ li { list-style:none;}
 
 /*--------------------------index--------------------------*/
 /* Header */
-#header    { background:url(images/headbg.jpg) repeat-x left top; height: 75px; border-bottom: solid 3px #e60000;}
+#header    { background:url(images/headbg.jpg) repeat-x left top; height: 85px; border-bottom: solid 3px #e60000;}
 #headerBox { width:1100px; margin:0 auto; position: relative; height: 100%;}
 #logoBox   { float:left; padding-top: 3px; }
 #logoBox img { width: 145px;}
@@ -30,7 +30,7 @@ li { list-style:none;}
 #navBox    { float:right; width:785px;}
 
 #nav {position: absolute; bottom: 0px; right: 0px;}
-#nav li { float:left; width:98px;  text-align:center; font-size:14px; color:#5c5c5c;}
+#nav li { float:left; width:98px;  text-align:center; font-size:16px; color:#5c5c5c;}
 #nav li a { display:block; color:#5c5c5c;}
 #nav li a:hover { background:url(images/navbg.png) no-repeat center top; color:#FFF;}
 
@@ -49,20 +49,21 @@ li { list-style:none;}
 #banner .select a.cur{ background:url(images/aaa_05.png) no-repeat; width:13px; height:13px;}
 
 /* Slogan */
-#slogan {margin: 20px; text-align: center}
+#slogan {margin: 15px; text-align: center}
 #slogan p {color: #878787; font-size: 14px;}
 
 /* Ours */
 #ours {width: 1100px; height: 210px; margin: 0 auto; background: #fafafa; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5}
 #ours .our {width: 275px; height: 210px; float: left;}
 #ours .our div {padding: 50px 25px 20px 25px;}
-#ours .our h2 a {font-size: 20px; color: #5c5c5c; border-top: 1px solid #373737; padding-top: 15px; } #ours .our h2 a:hover { color: black}
+#ours .our h2 a {font-size: 20px; color: #5c5c5c; border-top: 1px solid #373737; padding-top: 15px; } 
+#ours .our h2 a:hover { color: black}
 #ours .our p  {line-height: 150%; letter-spacing: 0.02em; color: #676767; padding-top: 10px}
 
 /* Services */
 #services {width: 1100px; height: 360px; margin: 0 auto; margin-top: 40px; margin-bottom: 40px;}
-#middleBox {padding: 0px 10px}
-#services > div {width: 360px; height: 100%; float: left; }
+#middleBox {padding: 0px 5px}
+#services > div {width: 362px; height: 100%; float: left; }
 #services [class^=cellBox] {float:left;}
 #services [class^=cellBox].mouseover {float:left; z-index: 99}
 #services [class^=cellBox].mouseover .cell {position: absolute}
@@ -70,20 +71,19 @@ li { list-style:none;}
 #services .cellBox21 {width: 240px; height: 120px}
 #services .cellBox22 {width: 240px; height: 240px}
 #services .cellBox32 {width: 360px; height: 240px}
-#services .padding-t {padding-top: 5px;}
-#services .padding-r {padding-right: 5px;}
-#services .padding-b {padding-bottom: 5px;}
-#services .padding-l {padding-left: 5px;}
-
+#services .padding-t {padding-top: 2.5px;}
+#services .padding-r {padding-right: 2.5px;}
+#services .padding-b {padding-bottom: 2.5px;}
+#services .padding-l {padding-left: 2.5px;}
 
 #customBox1 .cell div {background: #e60000; text-align: center; }
-#customBox1 .cell div a{color: white; font-size: 25px; line-height: 115px;}
+#customBox1 .cell div a{color: white; font-size: 25px; line-height: 117px;}
 
 #services {position: relative}
 #customBox2 {position: absolute; bottom: 0px;}
 #customBox2 .cell div {background: #e60000; text-align: center; }
 #customBox2 .cell div:hover {background: #f20000;}
-#customBox2 .cell div a{color: white; font-size: 25px; line-height: 115px;}
+#customBox2 .cell div a{color: white; font-size: 25px; line-height: 117px;}
 
 /* Friends */
 #friends {width: 1100px; margin: 0 auto; text-align: center}
@@ -96,33 +96,33 @@ li { list-style:none;}
 /* LiteFooter */
 #liteFooter {width: 1100px; height: 80px; margin: 0 auto; background: #fafafa; border-top: 1px solid #e5e5e5;}
 #liteFooter > div {width: 50%; height:100%; float:left;}
-#liteFooter > div > div { padding: 20px}
-#liteFooter .leftBox div { text-align: right; position: relative}
+#liteFooter .leftBox div {padding:20px; text-align: right; position: relative}
 #liteFooter .leftBox h2 { font-size: 24px; color: #5c5c5c}
-#liteFooter .leftBox p { font-size: 16px; color: #878787; margin-top: 7px; position: absolute; right: -30px;}
-#liteFooter .rightBox div {padding-top: 30px;}
-#liteFooter .rightBox a { margin-left: 180px; font-size: 20px; padding: 15px 30px; background: #de000d; color: white;}
+#liteFooter .leftBox p { font-size: 16px; color: #878787; position: absolute; right: -50px;}
+#liteFooter .rightBox {position:relative}
+#liteFooter .rightBox a { position:absolute; left: 180px; top: 15px; font-size: 20px; padding: 15px 30px; background: #de000d; color: white;}
 #liteFooter .rightBox a:hover { background: #f20000}
 
 /* Footer */
 #footer {height: 255px; background: #5c5c5c;}
 #footerContent {height: 255px;}
-#footerContent > div { width: 33%; height:100%; float:left;}
+#footerContent > div { width:33%; height:100%; float:left;}
 #footerContent > div > div {padding: 30px;}
+#footerContent > div > div {padding-left: 50px;}
+#footerContent #newProducts >div {padding-right: 0px;}
 #footer .title {text-align: left}
 #footer .title a {font-size: 18px; font-weight: lighter; padding-top: 15px; border-top: 1px solid white; color: white}
-#footer .title a:hover { color: #c4121d}
+#footer .title a:hover { color: black}
 #footer .desc p {font-size: 14px; color: #c9c9c9}
 #footer .desc p a{color: #c4121d}
 #footer .icon-star {color: #c4121d}
 #newProducts img{width: 20%}
 
-#hiddenCopyRights {height: 50px; width:1px;}
-#copyRights {background: #f2f2f2; height: 50px; position: fixed; bottom: 0px; width:100%;}
-#copyRights >div {width:1100px; margin: 0 auto}
-#copyRights div div {font-size: 18px; color: #5c5c5c; padding:10px; }
-#copyRights .left {float: left}
-#copyRights .right {float: right}
+#copyRights {background: #f2f2f2; height: 60px; width:100%;}
+#copyRights >div {width:1100px; margin: 0 auto; padding-top:15px;}
+#copyRights div div {color: #5c5c5c; }
+#copyRights .left {float: left; font-size:14px;}
+#copyRights .right {float: right; width:200px;}
 
 /*----------------------------Bannerer-------------------------------*/
 .bannerer{ width:1100px; margin:0 auto; padding-top:10px;}
@@ -158,7 +158,7 @@ vertical-align: middle;
 
 
 .hh3{ height:25px; line-height:25px; border-bottom:solid 1px #d6d6d6; position:relative;}
-.hh4{ position:absolute; left:0; bottom:-1px; _bottom:-2px; font-family:"ËÎÌו"; font-size:16px; color:#333333; border-bottom:solid 2px #176eb1;}
+.hh4{ position:absolute; left:0; bottom:-1px; _bottom:-2px; font-family:"ËÎÌו"; font-size:16px; color:#333333; border-bottom:solid 2px red;}
 
 /*----------------------------list_news-------------------------------*/
 .location{ padding-right:10px; color:#555555;}

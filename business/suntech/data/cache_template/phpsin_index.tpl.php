@@ -79,17 +79,15 @@
   <div class="leftBox">
     <div>
       <h2 class="custom-font" >只要有接触，就会有收获</h2>
-      <p>--做中国服务最周到的供应商</p>
+      <p>----做中国服务最周到的供应商</p>
     </div>
   </div>
-  <div class="rightBox">
-    <div><a class="custom-font" href="index.php?file=list&catid=5">点击进入</a></div>
-  </div>
+  <div class="rightBox"> <a class="custom-font" href="index.php?file=list&catid=5">点击进入</a> </div>
 </div>
 
 <div id="footer">
   <div id="footerContent">
-  <div>
+  <div id="aboutUS">
 <div>
   <div class="title"><a class="custom-font" href="index.php?file=list&catid=3">关于我们</a></div>
   <div class="desc">
@@ -100,7 +98,7 @@
 </div>
   </div>
 
-  <div>
+  <div id="contactUS">
 <div>
   <div class="title"><a class="custom-font" href="index.php?file=list&catid=9">联系我们</a></div>
   <div class="desc">

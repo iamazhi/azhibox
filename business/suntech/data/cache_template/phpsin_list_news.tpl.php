@@ -2,7 +2,7 @@
 <div class="bannerer"><script language="javascript" src="<?php echo SITE_URL;?>/data/js.php?id=1"></script></div>
 <div class="main">
   <div class="left">
-    <div class="hh2">栏目导航</div>
+    <div class="title"><h3>栏目导航</h3></div>
     <div class="daohang">
       <ul> 
 <?php $data = tag('phpsin', '', "SELECT * FROM sin_category WHERE ".get_parentid($catid)."", 0, 101);?>
