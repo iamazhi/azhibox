@@ -6,7 +6,7 @@
     <div class="daohang">
       <ul> 
 		{get sql="SELECT * FROM `sin_category` WHERE `parentid` = '5'" rows="100" }
-		<li><a href="{$r[url]}" >{$r[name]}</a></li>
+		<li {if $catid==$r[catid]}class="selected"{/if}><a href="{$r[url]}" >{$r[name]}</a></li>
 		{/get}
       </ul>
     </div>

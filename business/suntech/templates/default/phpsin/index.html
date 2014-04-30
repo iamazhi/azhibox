@@ -69,7 +69,7 @@
   <div class="desc"><p>凡是经过考验的朋友，就应该把他们紧紧地团结在你的周围。--莎士比亚</p></div>
   <div class="links">
     {get sql="SELECT * FROM `sin_link` WHERE linktype=2 AND passed=1" rows="20" }
-     <a href="{$r[url]}" target="_blank">{$r[name]}</a>
+     <a href="{$r[url]}" target="_blank" title="{$r[name]}"><img src="{$r[logo]}" width="100px" height="50px"></a>
     {/get}
   </div>
 

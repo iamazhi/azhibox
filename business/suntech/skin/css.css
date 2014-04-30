@@ -122,7 +122,8 @@ li { list-style:none;}
 #copyRights >div {width:1100px; margin: 0 auto; padding-top:15px;}
 #copyRights div div {color: #5c5c5c; }
 #copyRights .left {float: left; font-size:14px;}
-#copyRights .right {float: right; width:200px;}
+#copyRights .right {float: right; width:240px;}
+#copyRights .bdsharebuttonbox, #copyRights #adminAccess{float: left; }
 
 /*----------------------------Bannerer-------------------------------*/
 .bannerer{ width:1100px; margin:0 auto; padding-top:10px;}
@@ -134,7 +135,7 @@ li { list-style:none;}
 .main .title h3 { font-family:"ËÎÌו"; color:#FFF; background: url(images/main-title-bg.png); line-height:30px; font-size:14px; font-weight:bold; padding-left: 25px;}
 .main .left .daohang {padding-right: 30px;}
 .main .left .daohang li{ margin-top:1px; color:#6b6c6c; background: #eee}
-.main .left .daohang li.selectd{ background: #ddd; color:#FFF;}
+.main .left .daohang li.selected{ background: #ddd; color:#FFF;}
 .main .left .daohang a{ display:block; height:29px; padding-left:20px; line-height:29px;color:#6b6c6c; overflow:hidden; height:100%;}
 .main .left .daohang a:before{
 content: "";

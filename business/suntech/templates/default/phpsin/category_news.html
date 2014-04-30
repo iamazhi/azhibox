@@ -7,7 +7,7 @@
       <ul>
 		{tag_ю╦д©ап╠М}
 		{loop $data $n $v}
-		<li {if $catid==$v[catid]}class="selectd"{/if}><a href="{$v[url]}" >{$v[name]}</a></li>
+		<li {if $catid==$v[catid]}class="selected"{/if}><a href="{$v[url]}" >{$v[name]}</a></li>
 		{/loop}
 		{/tag}
        </ul>

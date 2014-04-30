@@ -69,7 +69,7 @@
   <div class="desc"><p>凡是经过考验的朋友，就应该把他们紧紧地团结在你的周围。--莎士比亚</p></div>
   <div class="links">
     <?php $DATA = get("SELECT * FROM `sin_link` WHERE linktype=2 AND passed=1", 20, 0, "", "");foreach($DATA AS $n => $r) { $n++;?>
-     <a href="<?php echo $r['url'];?>" target="_blank"><?php echo $r['name'];?></a>
+     <a href="<?php echo $r['url'];?>" target="_blank" title="<?php echo $r['name'];?>"><img src="<?php echo $r['logo'];?>" width="100px" height="50px"></a>
     <?php } unset($DATA); ?>
   </div>
 

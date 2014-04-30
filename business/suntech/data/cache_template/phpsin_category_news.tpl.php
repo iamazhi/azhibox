@@ -7,7 +7,7 @@
       <ul>
 <?php $data = tag('phpsin', '', "SELECT * FROM sin_category WHERE ".get_parentid($catid)."", 0, 101);?>
 <?php if(is_array($data)) foreach($data AS $n => $v) { ?>
-<li <?php if($catid==$v[catid]) { ?>class="selectd"<?php } ?>><a href="<?php echo $v['url'];?>" ><?php echo $v['name'];?></a></li>
+<li <?php if($catid==$v[catid]) { ?>class="selected"<?php } ?>><a href="<?php echo $v['url'];?>" ><?php echo $v['name'];?></a></li>
 <?php } ?>
 <?php unset($data); ?>
        </ul>

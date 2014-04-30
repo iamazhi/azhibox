@@ -6,7 +6,7 @@
     <div class="daohang">
       <ul> 
 <?php $DATA = get("SELECT * FROM `sin_category` WHERE `parentid` = '5'", 100, 0, "", "");foreach($DATA AS $n => $r) { $n++;?>
-<li><a href="<?php echo $r['url'];?>" ><?php echo $r['name'];?></a></li>
+<li <?php if($catid==$r[catid]) { ?>class="selected"<?php } ?>><a href="<?php echo $r['url'];?>" ><?php echo $r['name'];?></a></li>
 <?php } unset($DATA); ?>
       </ul>
     </div>

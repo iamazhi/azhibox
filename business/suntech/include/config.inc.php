@@ -27,7 +27,7 @@ define('CONTENT_ROOT', PHP_ROOT.'data/txt/'); //默认存储路径
 //数据库配置信息
 define('DB_HOST', 'db942.72dns.net'); //数据库服务器主机地址
 define('DB_USER', 'suntech'); //数据库帐号
-define('DB_PW', '0vs6fh'); //数据库密码
+define('DB_PW', '0756zhh'); //数据库密码
 define('DB_NAME', 'db_suntech'); //数据库名
 define('DB_PRE', 'sin_'); //数据库表前缀，同一数据库安装多套Phpcms时，请修改表前缀
 define('DB_CHARSET', 'gbk'); //数据库字符集
